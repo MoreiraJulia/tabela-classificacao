@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de classificação</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icone2.png" type="image/png">
+</head>
+
+<body>
+    <h1>Tabela de classificação</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Participante</th>
+                <th>Pontos</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>Cruzeiro</td>
+                <td class="pontos-cruzeiro"></td>
+                <td class="acoes-cruzeiro">
+                    <button id="vitoria-cruzeiro">Vitória</button>
+                    <button id="empate-cruzeiro">Empate</button>
+                    <button id="derrota-cruzeiro">Derrota</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+                <td class="pontos-flamengo"></td>
+                <td class="acoes-flamengo">
+                    <button id="vitoria-flamengo">Vitória</button>
+                    <button id="empate-flamengo">Empate</button>
+                    <button id="derrota-flamengo">Derrota</button>
+                </td>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Participantes</th>
+                <th>Pontos</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>Cruzeiro</td>
+                <td class="cruzeiro-pontos"></td>
+                <td class="cruzeiro-vitoria"></td>
+                <td class="cruzeiro-empate"></td>
+                <td class="cruzeiro-derrota"></td>
+                <td class="cruzeiro-acoes">
+                    <button id="btnVitoriaCruzeiro">Vitória</button>
+                    <button id="btnEmpateCruzeiro">Empate</button>
+                    <button id="btnDerrotaCruzeiro">Derrota</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+                <td id="flamengo-pontos"></td>
+                <td class="flamengo-vitoria"></td>
+                <td class="flamengo-empate"></td>
+                <td class="flamengo-derrota"></td>
+                <td class="flamengo-acoes">
+                    <button id="btnVitoriaFlamengo">Vitória</button>
+                    <button id="btnEmpateFlamengo">Empate</button>
+                    <button id="btnDerrotaFlamengo">Derrota</button>
+                </td>
+            </tr>
+        </thead>
+    </table>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
